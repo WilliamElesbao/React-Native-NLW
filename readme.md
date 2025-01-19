@@ -26,7 +26,7 @@ A React Native application for event registration and credential management. The
 - Alternatively, use an Android Virtual Device (via Android Studio) or an iOS simulator (via Xcode).
 
 ### Backend
-- PostgreSQL database (or other Prisma-supported databases)
+- SQLite database (or other Prisma-supported databases)
 - `.env` file with the `DATABASE_URL` configured for your database
 
 ---
@@ -62,7 +62,6 @@ npm install
 
 1. Install dependencies
    ```env
-   cd server
    npm install
    ```
 
