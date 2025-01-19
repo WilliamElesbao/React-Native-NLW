@@ -36,8 +36,8 @@ A React Native application for event registration and credential management. The
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/WilliamElesbao/React-Native-NLW.git
+cd React-Native-NLW
 ```
 
 ### Install Dependencies
@@ -60,9 +60,10 @@ npm install
 
 ### Backend
 
-1. Ensure your PostgreSQL database is running and the connection URL is configured in the `.env` file in the `server` directory. Example:
+1. Install dependencies
    ```env
-   DATABASE_URL=postgresql://username:password@localhost:5432/your_database
+   cd server
+   npm install
    ```
 
 2. Generate Prisma client and apply migrations:
@@ -76,7 +77,7 @@ npm install
    npm run dev
    ```
 
-The backend will be available at `http://localhost:3000`.
+The backend will be available at `http://localhost:3333`.
 
 ---
 
